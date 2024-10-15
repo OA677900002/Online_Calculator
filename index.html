@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <center><h1>Your Fast and Reliable Calculation Tool.</h1></center>
+  <div class="calc">
+
+    <center><input type="text" id="res" disabled></center>
+    <div class="btn">
+      <button onclick="clearRes()">C</button>
+      <button onclick="appendVal('(')">(</button>
+      <button onclick="appendVal(')')">)</button>
+      <button onclick="appendVal('/')">/</button>
+      <button onclick="appendVal(7)">7</button>
+      <button onclick="appendVal(8)">8</button>
+      <button onclick="appendVal(9)">9</button>
+      <button onclick="appendVal('*')">*</button>
+      <button onclick="appendVal(4)">4</button>
+      <button onclick="appendVal(5)">5</button>
+      <button onclick="appendVal(6)">6</button>
+      <button onclick="appendVal('-')">-</button>
+      <button onclick="appendVal(1)">1</button>
+      <button onclick="appendVal(2)">2</button>
+      <button onclick="appendVal(3)">3</button>
+      <button onclick="appendVal('+')">+</button>
+      <button onclick="appendVal('.')">.</button>
+      <button onclick="appendVal(0)">0</button>
+      <button onclick="appendVal('%')">%</button> 
+      <button onclick="answer()" style="border-radius: 80%; background-color: red;">=</button>
+      
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>

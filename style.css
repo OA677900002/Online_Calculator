@@ -1,0 +1,60 @@
+body{
+    background-color: #91a7b3 ;
+  }
+  
+  h1{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #121212;
+    margin: 50px 0px;
+  }
+  
+  .calc{
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #091921;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+    
+  #res {
+    margin-bottom: 10px;
+    /* width: 100%; */
+    width: 87%;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .btn button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10%;
+    border-color: white;
+    background-color: #091921;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn button:hover {
+    background-color: #fff;
+    color: #091921;
+  }
+    
+  .btn button:active {
+    transform: scale(0.95);
+  }
